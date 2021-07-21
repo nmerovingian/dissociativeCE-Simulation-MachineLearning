@@ -58,4 +58,4 @@ You may cite the paper as acknowledgement to the authors if you found this helpf
 Please cite: 
 
 
-For general enquiry, please email [Professor Richard Compton]<mailto:richard.compton@chem.ox.ac.uk>
+For general enquiry, please email [Professor Richard Compton](mailto:richard.compton@chem.ox.ac.uk)
