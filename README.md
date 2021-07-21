@@ -1,7 +1,7 @@
 # dissociativeCE-Simulation-MachineLearning
  Simulation and machine learning of dissociative CE reaction. Simulation assumes 1-D simulation of reversible electron transfer on a spherical electorde coupled with dissociative preceding chemical reaction. A set of machine learning prorgams are offered to analyze the relationship between the rate constants and voltammograms. Good for analytical purpose.  
 
-The author use Python 3.7.3 with Anaconda. The C++ program require C++ 11 for std::thread. 
+The author used Python 3.7.3 in Anaconda environment. The C++ program requires C++ 11 for std::thread. 
 
 # Machine Learning 
 
