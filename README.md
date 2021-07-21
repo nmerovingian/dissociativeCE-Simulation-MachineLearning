@@ -8,7 +8,7 @@ The author use Python 3.7.3 with Anaconda. The C++ program require C++ 11 for st
 Contains machine learning scripts using keras(deprecated) or tensorflow.keras. Machine learning packages like Numpy, Scikit-Learn and xgboost are required. Pandas, Matplotlib, Seaborn are required for data processing and visualization. Graphviz and ann_visualizer is used for visualization of neural networks.
 All three methods mentioned in paper are included in this folder, including:
 
-**features.csv** The csv file containing features and targets of for Method A and Method B extraced from thousands of voltammograms in the *Training Data* folder.
+
 
 ## Python Scripts for machine learning
 
@@ -16,6 +16,8 @@ All three methods mentioned in paper are included in this folder, including:
 * **Predict Voltammogram.py** Neural network for method B mentioned in paper. It can predict voltammogram given equilibrium constant, rate costant and scan rate. 
 * **Predict Flux and Half Peak Potential.py** Neural network for Method C mentioned in paper. It can predict half peak potential and peak flux from equilibrium constants and rate constants.
 * **Benchmarking Models.py** Benchmarking neural network in Method A with naive linear regression, random forest regresor and xgboost regressor.
+
+**features.csv** The csv file containing features and targets of for Method A and Method B extraced from thousands of voltammograms in the *Training Data* folder.
 
 ## Folders
 
