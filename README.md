@@ -36,7 +36,7 @@ All three methods mentioned in paper are included in this folder, including:
 
 # Simulation C++
 
-Simulation program of dissociative CE reaction using C++. Good for users loving C++. Simulation of other reactions including CE,EC,EC2 can be found [here](https://github.com/nmerovingian/CE_Dissociative-CE_EC_EC2_Reaction_Simulation)
+Simulation program of dissociative CE reaction using C++. Good for users loving C++. Simulation of other reactions including CE,EC,EC2 can be found [here](https://github.com/nmerovingian/CE_Dissociative-CE_EC_EC2_Reaction_Simulation).
 
 # Simulation Python
 
