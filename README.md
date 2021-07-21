@@ -8,6 +8,8 @@ The author use Python 3.7.3 with Anaconda. The C++ program require C++ 11 for st
 Contains machine learning scripts using keras(deprecated) or tensorflow.keras. Machine learning packages like Numpy, Scikit-Learn and xgboost are required. Pandas, Matplotlib, Seaborn are required for data processing and visualization. Graphviz and ann_visualizer is used for visualization of neural networks.
 All three methods mentioned in paper are included in this folder, including:
 
+**features.csv** The csv file containing features and targets of for Method A and Method B extraced from thousands of voltammograms in the *Training Data* folder.
+
 ## Python Scripts for machine learning
 
 * **Predict Constants.py** Neural network for method A mentioned in paper. It can predict equilibrium constant and rate constant from voltammogram.
@@ -54,4 +56,4 @@ You may cite the paper as acknowledgement to the authors if you found this helpf
 Please cite: 
 
 
-For general enquiry, please email [Professor Richard Compton]<richard.compton@chem.ox.ac.uk>
+For general enquiry, please email [Professor Richard Compton]<mailto:richard.compton@chem.ox.ac.uk>
