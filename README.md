@@ -1,5 +1,5 @@
 # dissociativeCE-Simulation-MachineLearning
- Simulation and machine learning of dissociative CE reaction
+ Simulation and machine learning of dissociative CE reaction. Simulation assumes 1-D simulation of reversible electron transfer on a spherical electorde coupled with dissociative preceding chemical reaction. A set of machine learning prorgams are offered to analyze the relationship between the rate constants and voltammograms. Good for analytical purpose.  
 
 The author use Python 3.7.3 with Anaconda. The C++ program require C++ 11 for std::thread. 
 
@@ -10,22 +10,22 @@ All three methods mentioned in paper are included in this folder, including:
 
 
 
-## Python Scripts for machine learning
+### Python Scripts for machine learning
 
 * **Predict Constants.py** Neural network for method A mentioned in paper. It can predict equilibrium constant and rate constant from voltammogram.
 * **Predict Voltammogram.py** Neural network for method B mentioned in paper. It can predict voltammogram given equilibrium constant, rate costant and scan rate. 
 * **Predict Flux and Half Peak Potential.py** Neural network for Method C mentioned in paper. It can predict half peak potential and peak flux from equilibrium constants and rate constants.
 * **Benchmarking Models.py** Benchmarking neural network in Method A with naive linear regression, random forest regresor and xgboost regressor.
 
-**features.csv** The csv file containing features and targets of for Method A and Method B extraced from thousands of voltammograms in the *Training Data* folder.
+**features.csv** The csv file containing features and targets of for machine learning using Method A and Method B, which is extraced from thousands of voltammograms in the *Training Data* folder.
 
-## Folders
+### Folders
 
 * *weights* This folder contains weights of neural networks from the authors. The machine learning program will use existing weights in this folder if available. If not, will start training and weights will be saved in this folder
-* *Training Data* The folder training data is stored.
-* *Test Data* The folder testing data is stored. 
+* *Training Data* The folder training data is stored. This folder is intentionally left empty due to the large number (more than 10,000) of training voltammogram files used. The user can generate their own training data using the simulation programs. 
+* *Test Data* The folder testing data is stored.  This folder is intentionally left empty. The user should generate their own testing voltammograms.
 
-## Python Scripts for visualization of machine learning results
+### Python Scripts for visualization of machine learning results
 
 
 
