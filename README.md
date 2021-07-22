@@ -17,7 +17,8 @@ All three methods mentioned in paper are included in this folder, including:
 * **Predict Flux and Half Peak Potential.py** Neural network for Method C mentioned in paper. It can predict half peak potential and peak flux from equilibrium constants and rate constants.
 * **Benchmarking Models.py** Benchmarking neural network in Method A with naive linear regression, random forest regresor and xgboost regressor.
 
-**features.csv** The csv file containing features and targets of for machine learning using Method A and Method B, which is extraced from thousands of voltammograms in the *Training Data* folder.
+### Python Scripts for visualization of machine learning results
+
 
 ### Folders
 
@@ -25,30 +26,27 @@ All three methods mentioned in paper are included in this folder, including:
 * *Training Data* The folder training data is stored. This folder is intentionally left empty due to the large number (more than 10,000) of training voltammogram files used. The user can generate their own training data using the simulation programs. 
 * *Test Data* The folder testing data is stored.  This folder is intentionally left empty. The user should generate their own testing voltammograms.
 
-### Python Scripts for visualization of machine learning results
+
+**features.csv** The csv file containing features and targets of for machine learning using Method A and Method B, which is extraced from thousands of voltammograms in the *Training Data* folder.
 
 
 
 
+# Simulation, C++
 
+Simulation program of dissociative CE reaction using C++. Good for users loving C++. Simulation of other electrochemical reactions including CE,EC,EC2 can be found [here](https://github.com/nmerovingian/CE_Dissociative-CE_EC_EC2_Reaction_Simulation).
 
-
-
-# Simulation C++
-
-Simulation program of dissociative CE reaction using C++. Good for users loving C++. Simulation of other reactions including CE,EC,EC2 can be found [here](https://github.com/nmerovingian/CE_Dissociative-CE_EC_EC2_Reaction_Simulation).
-
-# Simulation Python
+# Simulation, Python
 
 Simulation program of dissociative CE reaction using Python. Good for users loving Python. Ordinary packages like Numpy, Scipy, Matplotlib are required. 
 
 
 # Visualizing Voltammograms
-A bunch of useful scripts for visualization of voltammogram files, plotting concentration profiels, plotting Tafel plots and analysis.  Sample data is included for reference. helper.py is a helper scripts for data analysis and visualization. Includes scripts to locate voltammogram files, to parse files and formatter for matplotlib.
+A bunch of useful scripts for visualization of voltammogram files, plotting concentration profiels, plotting Tafel plots and analysis.  Sample data is included for reference. helper.py is a helper scripts for data analysis and visualization, which includes scripts to locate voltammogram files, to parse files and formatter for matplotlib.
 
 
 
-**requirement.txt**  The python package the author used on Python 3.7.3 conda environment.
+**requirement.txt**  The python packages the author used in a Python 3.7.3 conda environment.
 
 
 ___
