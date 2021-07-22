@@ -38,11 +38,11 @@ Simulation program of dissociative CE reaction using C++. Good for users loving 
 
 # Simulation, Python
 
-Simulation program of dissociative CE reaction using Python. Good for users loving Python. Ordinary packages like Numpy, Scipy, Matplotlib are required. 
+Simulation program of dissociative CE reaction using Python. Good for users loving Python. Ordinary packages like Numpy, Scipy, and Matplotlib are required. 
 
 
 # Visualizing Voltammograms
-A bunch of useful scripts for visualization of voltammogram files, plotting concentration profiels, plotting Tafel plots and analysis.  Sample data is included for reference. helper.py is a helper scripts for data analysis and visualization, which includes scripts to locate voltammogram files, to parse files and formatter for matplotlib.
+A bunch of useful scripts for visualization of voltammogram files, plotting concentration profiels, plotting Tafel plots and analysis.  Sample data is included for reference. *helper.py* is a helper scripts for data analysis and visualization, which includes scripts to locate voltammogram files, to parse files and formatter for matplotlib.
 
 
 
