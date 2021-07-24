@@ -1,0 +1,1 @@
+This is where your training data should be located by default.
