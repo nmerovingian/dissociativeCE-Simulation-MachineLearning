@@ -18,7 +18,10 @@ All three methods mentioned in paper are included in this folder, including:
 * **Benchmarking Models.py** Benchmarking neural network in Method A with naive linear regression, random forest regresor and xgboost regressor.
 
 ### Python Scripts for visualization of machine learning results
-
+* **Benchmarking Models.py** Benchmarking model B with naive linear regression, XGB regressor and random forest.
+* **ContourPlotData predict constants-Dimensionless.py** Visualization of predicting constants 
+* **ContourPlotData predict half peak potential and flux - Dimensionless.py**  Visualization of predicting half peak potential and peak flux
+* **Histogram predict voltammogram Dimensionless.py**  Visualization of predicting voltammograms
 
 ### Folders
 
