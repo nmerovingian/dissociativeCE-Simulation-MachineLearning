@@ -16,6 +16,7 @@ All three methods mentioned in paper are included in this folder, including:
 * **Predict Voltammogram.py** Neural network for method B mentioned in paper. It can predict voltammogram given equilibrium constant, rate costant and scan rate. 
 * **Predict Flux and Half Peak Potential.py** Neural network for Method C mentioned in paper. It can predict half peak potential and peak flux from equilibrium constants and rate constants.
 * **Benchmarking Models.py** Benchmarking neural network in Method A with naive linear regression, random forest regresor and xgboost regressor.
+* PyTorch Version Method A: The PyTorch version of method A for your personal preference
 
 ### Python Scripts for visualization of machine learning results
 * **Benchmarking Models.py** Benchmarking model B with naive linear regression, XGB regressor and random forest.
@@ -56,7 +57,7 @@ ___
 
 You may cite the paper as acknowledgement to the authors if you found this helpful. 
 
-Please cite: 
+Please cite: Anal. Chem. 2021, 93, 39, 13360–13372
 
 
 For general enquiry, please email [Professor Richard Compton](mailto:richard.compton@chem.ox.ac.uk)
