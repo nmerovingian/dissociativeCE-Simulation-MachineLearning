@@ -57,7 +57,7 @@ ___
 
 You may cite the paper as acknowledgement to the authors if you found this helpful. 
 
-Please cite: Anal. Chem. 2021, 93, 39, 13360–13372
+Please cite: [Anal. Chem. 2021, 93, 39, 13360–13372](https://pubs.acs.org/doi/full/10.1021/acs.analchem.1c03154)
 
 
 For general enquiry, please email [Professor Richard Compton](mailto:richard.compton@chem.ox.ac.uk)
